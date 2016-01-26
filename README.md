@@ -14,7 +14,7 @@ Uses [plutil](https://developer.apple.com/library/mac/documentation/Darwin/Refer
 
 ## Usage
 
-```
+```javascript
 var readplist = require('readplist');
 var PATH = '/Applications/App\ Store.app/Contents/Info.plist';
 
