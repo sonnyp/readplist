@@ -1,0 +1,17 @@
+{
+  "name": "readplist",
+  "version": "0.0.0",
+  "description": "Read any plist file.",
+  "scripts": {
+    "preversion": "npm run test",
+    "demo": "node demo.js",
+    "lint": "standard",
+    "test": "npm run demo && npm run lint",
+    "doc": "documentation -f md -o doc --github"
+  },
+  "repository": "github:sonnyp/readplist",
+  "author": "Sonny Piers <sonny@fastmail.net>",
+  "license": "ISC",
+  "bugs": "https://github.com/sonnyp/readplist/issues",
+  "homepage": "https://github.com/sonnyp/readplist#readme"
+}
