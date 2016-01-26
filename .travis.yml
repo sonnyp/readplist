@@ -6,3 +6,5 @@ node_js:
   - stable
 
 before_install: npm install -g standard
+
+script: npm run lint
