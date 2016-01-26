@@ -9,6 +9,20 @@
     "test": "npm run demo && npm run lint",
     "doc": "documentation -f md -o doc --github"
   },
+  "keywords": [
+    "plist",
+    "plutil",
+    "parse",
+    "read",
+    "fs",
+    "json",
+    "xml",
+    "binary"
+    "mac",
+    "apple",
+    "os x",
+    "osx"
+  ],
   "repository": "github:sonnyp/readplist",
   "author": "Sonny Piers <sonny@fastmail.net>",
   "license": "ISC",
