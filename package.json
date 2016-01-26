@@ -21,7 +21,8 @@
     "mac",
     "apple",
     "os x",
-    "osx"
+    "osx",
+    "darwin"
   ],
   "repository": "github:sonnyp/readplist",
   "author": "Sonny Piers <sonny@fastmail.net>",
