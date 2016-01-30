@@ -27,9 +27,9 @@ readplist(PATH, function(err, plist) {
 ## Comparaison
 
 |   module  	| ops/sec 	| XML 	| JSON 	| binary 	|      platform     	|
-|:---------:	|:-------:	|:---:	|:----:	|:------:	|:-----------------:	|
-| readplist 	|      80 	|  ✓  	|   ✓  	|    ✓   	| darwin, node      	|
-| plist     	|     887 	|  ✓  	|      	|        	| any, node/browser 	|
+|:---------:  |:-------:	|:---:	|:----:	|:------:	|:-----------------:	|
+| [readplist](https://github.com/sonnyp/readplist) 	|      80 	|  ✓  	|   ✓  	|    ✓   	| darwin, node      	|
+| [plist.js](https://github.com/TooTallNate/plist.js)     	|     887 	|  ✓  	|      	|        	| any, node/browser 	|
 
 `node benchmark.js`
 
