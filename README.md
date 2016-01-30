@@ -24,8 +24,18 @@ readplist(PATH, function(err, plist) {
 });
 ```
 
+## Comparaison
+
+|   module  	| ops/sec 	| XML 	| JSON 	| binary 	|      platform     	|
+|:---------:	|:-------:	|:---:	|:----:	|:------:	|:-----------------:	|
+| readplist 	|      80 	|  ✓  	|   ✓  	|    ✓   	| darwin, node      	|
+| plist     	|     887 	|  ✓  	|      	|        	| any, node/browser 	|
+
+`node benchmark.js`
+
 ## Test
 
-```npm install -g standard
+```
+npm install -g standard
 npm test
 ```

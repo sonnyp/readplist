@@ -6,8 +6,7 @@
     "preversion": "npm run test",
     "demo": "node demo.js",
     "lint": "standard",
-    "test": "npm run demo && npm run lint",
-    "doc": "documentation -f md -o doc --github"
+    "test": "npm run demo && npm run lint"
   },
   "keywords": [
     "plist",
@@ -28,5 +27,9 @@
   "author": "Sonny Piers <sonny@fastmail.net>",
   "license": "ISC",
   "bugs": "https://github.com/sonnyp/readplist/issues",
-  "homepage": "https://github.com/sonnyp/readplist#readme"
+  "homepage": "https://github.com/sonnyp/readplist#readme",
+  "devDependencies": {
+    "benchmark": "^2.1.0",
+    "plist": "^1.2.0"
+  }
 }
