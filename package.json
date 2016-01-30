@@ -1,6 +1,6 @@
 {
   "name": "readplist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read any plist file.",
   "scripts": {
     "preversion": "npm run test",
